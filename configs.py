@@ -1,17 +1,15 @@
-# (c) @PredatorHackerzZ || @TeleRoidGroup
-
 import os
 
 class Config(object):
-	API_ID = int(os.environ.get("API_ID", "0"))
-	API_HASH = os.environ.get("API_HASH")
-	BOT_TOKEN = os.environ.get("BOT_TOKEN")
-	BOT_USERNAME = os.environ.get("BOT_USERNAME")
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-100"))
+	API_ID = int(os.environ.get("API_ID", "28482353"))
+	API_HASH = os.environ.get("9deacb35ebb702743bcae1f61dd23378")
+	BOT_TOKEN = os.environ.get("7558580579:AAEbK-3-ornhXLTRqU5IgNQc01vbYJ1-m98")
+	BOT_USERNAME = os.environ.get("KoreanDramaFiles_Bot")
+	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002473852673"))
 	SHORTLINK_URL = os.environ.get('SHORTLINK_URL')
 	SHORTLINK_API = os.environ.get('SHORTLINK_API')
-	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1445283714"))
-	DATABASE_URL = os.environ.get("DATABASE_URL")
+	BOT_OWNER = int(os.environ.get("BOT_OWNER", "8045020820"))
+	DATABASE_URL = os.environ.get("mongodb+srv://Animehva:Animehva8745@anime.m1imh.mongodb.net/?retryWrites=true&w=majority&appName=anime")
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
 	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", None)
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
